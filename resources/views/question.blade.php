@@ -42,7 +42,21 @@
                                        href="{{ route('answers.show', ['question_id'=> $question->id,'answer_id' => $answer->id]) }}">
                                         View
                                     </a>
+                                    <div class="interactive">
 
+                                        <a class="btn btn-default float-left" type="button"
+                                           href="{{ route('votes.like', ['question_id'=> $question->id, 'answer_id' => $answer->id]) }}">
+                                            Like
+                                        </a>
+
+                                        <a class="btn btn-default float-left" type="button"
+                                           href="{{ route('votes.dislike', ['question_id'=> $question->id, 'answer_id' => $answer->id]) }}">
+                                            Dislike
+                                        </a>
+
+
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         @empty
@@ -52,8 +66,9 @@
                             </div>
                         @endforelse
 
-
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
 @endsection
