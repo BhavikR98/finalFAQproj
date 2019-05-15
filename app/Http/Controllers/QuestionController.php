@@ -53,7 +53,7 @@ class QuestionController extends Controller
         $question = new Question($input);
         $question->user()->associate(Auth::user());
         $question->save();
-        return redirect()->route('home')->with('message', 'IT WORKS!');
+        return redirect()->route('home')->with('message', 'Question Posted');
     }
 
     /**
@@ -94,7 +94,7 @@ class QuestionController extends Controller
         ]);
         $question->body = $request->body;
         $question->save();
-        return redirect()->route('questions.show',['question_id' => $question->id])->with('message', 'Saved');
+        return redirect()->route('questions.show',['question_id' => $question->id])->with('message', 'Edit Saved');
     }
 
     /**
@@ -103,8 +103,10 @@ class QuestionController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+
+    public function destroy(Question $question)
     {
-        //
+        $question->delete();
+        return redirect()->route('home')->with('message', 'Question Deleted');
     }
 }
