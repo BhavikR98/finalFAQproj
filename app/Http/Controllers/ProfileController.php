@@ -51,6 +51,7 @@ class ProfileController extends Controller
             'fname.required' => ' First is required',
             'lname.required' => ' Last is required',
             'body.required' => ' Body is required',
+
         ]);
         $input = request()->all();
         $profile = new Profile($input);
