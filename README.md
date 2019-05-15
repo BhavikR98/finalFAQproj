@@ -1,5 +1,6 @@
 # finalFAQproj
 IS 218 Final FAQ Project
+Partner - Gianluca Guarino
 
 To Run our FAQ project follow the following steps:
 
