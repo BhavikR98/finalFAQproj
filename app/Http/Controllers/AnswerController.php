@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Answer;
 use App\Question;
+use Illuminate\Http\Response;
 use Illuminate\Support\Facades\Auth;
 
 class AnswerController extends Controller
@@ -16,7 +17,7 @@ class AnswerController extends Controller
     /**
      * Display a listing of the resource.
      *
-     * @return \Illuminate\Http\Response
+     * @return Response
      */
     public function index()
     {
@@ -27,9 +28,9 @@ class AnswerController extends Controller
     /**
      * Show the form for creating a new resource.
      *
-     * @return \Illuminate\Http\Response
+     * @return Response
      */
-    public function create()
+    public function create($question)
     {
         //
         $answer = new Answer;
@@ -40,8 +41,8 @@ class AnswerController extends Controller
     /**
      * Store a newly created resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
+     * @param Request $request
+     * @return Response
      */
     public function store(Request $request, $question)
     {
@@ -57,13 +58,13 @@ class AnswerController extends Controller
         $Answer->user()->associate(Auth::user());
         $Answer->question()->associate($question);
         $Answer->save();
-        return redirect()->route('questions.show', ['question_id' => $question->id])->with('message', 'Saved');
+        return redirect()->route('questions.show', ['question_id' => $question->id])->with('message', 'Your Answer is Saved');
     }
      /**
      * Display the specified resource.
      *
      * @param  int  $id
-     * @return \Illuminate\Http\Response
+     * @return Response
      */
     public function show($question,  $answer)
     {
@@ -76,7 +77,7 @@ class AnswerController extends Controller
      * Show the form for editing the specified resource.
      *
      * @param  int  $id
-     * @return \Illuminate\Http\Response
+     * @return Response
      */
         public function edit($question,  $answer)
     {
@@ -88,9 +89,9 @@ class AnswerController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
+     * @param Request $request
      * @param  int  $id
-     * @return \Illuminate\Http\Response
+     * @return Response
      */
     public function update(Request $request, $question, $answer)
     {
@@ -104,19 +105,19 @@ class AnswerController extends Controller
         $answer = Answer::find($answer);
         $answer->body = $request->body;
         $answer->save();
-        return redirect()->route('answers.show',['question_id' => $question, 'answer_id' => $answer])->with('message', 'Updated');
+        return redirect()->route('answers.show',['question_id' => $question, 'answer_id' => $answer])->with('message', 'Your Answer is Updated');
     }
 
     /**
      * Remove the specified resource from storage.
      *
      * @param  int  $id
-     * @return \Illuminate\Http\Response
+     * @return Response
      */
     public function destroy($question, $answer)
     {
         $answer = Answer::find($answer);
         $answer->delete();
-        return redirect()->route('questions.show',['question_id' => $question])->with('message', 'Delete');
+        return redirect()->route('questions.show',['question_id' => $question])->with('message', 'Your Answer is Deleted');
     }
 }
