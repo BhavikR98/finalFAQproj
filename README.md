@@ -2,6 +2,8 @@
 IS 218 Final FAQ Project
 Partner - Gianluca Guarino
 
+Added features: Like & Dislike; Fonts, & Gradient
+
 To Run our FAQ project follow the following steps:
 
 1) Clone my git repository 
