@@ -1,6 +1,6 @@
 # finalFAQproj
 IS 218 Final FAQ Project
-Partner - Gianluca Guarino
+Partner - Gianluca Guarino - met up to work on final project for several days over the last few weeks and did the commits together.
 
 Added features: Like & Dislike; Fonts, & Gradient
 
