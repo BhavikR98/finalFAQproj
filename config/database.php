@@ -21,7 +21,7 @@ return [
     |
     */
 
-    'default' => env('DB_CONNECTION', 'pgsql_production'),
+    'default' => env('DB_CONNECTION', 'mysql_production'),
 
     /*
     |--------------------------------------------------------------------------
@@ -84,7 +84,7 @@ return [
             'sslmode' => 'prefer',
         ],
 
-        'pgsql_produciton' => [
+        'mysql_produciton' => [
             'driver' => 'pgsql',
             'host' => $host,
             'database' => $database,

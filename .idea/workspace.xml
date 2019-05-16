@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ca8ef3d-3900-412a-bfd4-a626a2555ea7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/PHPprojects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PHPprojects.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.phpstorm.meta.php" beforeDir="false" afterPath="$PROJECT_DIR$/.phpstorm.meta.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_ide_helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/_ide_helper.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,20 +50,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bootstrap/app.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/logging.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="138">
@@ -99,11 +79,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/database.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="94" column="33" selection-start-line="94" selection-start-column="33" selection-end-line="94" selection-end-column="33" />
+            <state relative-caret-position="391">
+              <caret line="23" column="58" lean-forward="true" selection-start-line="23" selection-start-column="58" selection-end-line="23" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/DatabaseServiceProvider.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="34" lean-forward="true" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="147" column="65" selection-start-line="147" selection-start-column="65" selection-end-line="147" selection-end-column="65" />
             </state>
           </provider>
         </entry>
@@ -132,8 +130,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.env">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="59" />
+            <state relative-caret-position="153">
+              <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -316,9 +314,8 @@
       <path value="$PROJECT_DIR$/vendor/symfony/options-resolver" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="941" />
-    <option name="y" value="150" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1057" />
   </component>
@@ -394,7 +391,47 @@
             <path>
               <item name="PHPprojects" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="C:\Users\esryo\PHPprojects" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="config" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="vendor" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="PHPprojects" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\esryo\PHPprojects" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="vendor" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="laravel" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="PHPprojects" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\esryo\PHPprojects" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="vendor" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="laravel" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="framework" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="PHPprojects" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\esryo\PHPprojects" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="vendor" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="laravel" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="framework" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="PHPprojects" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\esryo\PHPprojects" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="vendor" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="laravel" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="framework" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Illuminate" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="PHPprojects" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\esryo\PHPprojects" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="vendor" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="laravel" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="framework" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Illuminate" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="Database" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -488,7 +525,7 @@
       <workItem from="1557871967055" duration="15093000" />
       <workItem from="1557932849654" duration="27034000" />
       <workItem from="1558009543709" duration="953000" />
-      <workItem from="1558017687575" duration="4802000" />
+      <workItem from="1558017687575" duration="7505000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit with Laravel running">
       <created>1557380888411</created>
@@ -686,7 +723,21 @@
       <option name="project" value="LOCAL" />
       <updated>1558021740344</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Database setup for Heroku">
+      <created>1558022781194</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1558022781194</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Database setup for Heroku">
+      <created>1558023304975</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1558023304975</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -722,13 +773,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77467000" />
+    <option name="totallyTimeSpent" value="80170000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="941" y="150" width="974" height="1057" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.37888888" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18313642" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -743,7 +793,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3296582" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5016112" side_tool="true" weight="0.32745314" />
       <window_info anchor="bottom" id="Database Console" order="11" weight="0.3296582" />
-      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.4989259" visible="true" weight="0.3674833" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="12" sideWeight="0.4989259" visible="true" weight="0.36383682" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -802,7 +852,8 @@
     <MESSAGE value="Changed Colors for the homepage, added titles, and updated fonts." />
     <MESSAGE value="Updated composer.json for Heroku" />
     <MESSAGE value="Updated for Heroku" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated for Heroku" />
+    <MESSAGE value="Database setup for Heroku" />
+    <option name="LAST_COMMIT_MESSAGE" value="Database setup for Heroku" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -816,23 +867,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/database/factories/ProfileFactory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#66#80#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/factories/QuestionFactory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/factories/UserFactory.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1147,13 +1181,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="383">
@@ -1161,10 +1188,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="147" column="65" selection-start-line="147" selection-start-column="65" selection-end-line="147" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config/database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="94" column="33" selection-start-line="94" selection-start-column="33" selection-end-line="94" selection-end-column="33" />
+        <state relative-caret-position="391">
+          <caret line="23" column="58" lean-forward="true" selection-start-line="23" selection-start-column="58" selection-end-line="23" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/DatabaseServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="34" lean-forward="true" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
         </state>
       </provider>
     </entry>
