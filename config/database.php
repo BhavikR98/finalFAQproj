@@ -1,5 +1,6 @@
 <?php
 $heroku_db_url = parse_url(env('DATABASE_URL', "C:\Users\esryo\PHPprojects\database\database.sqlite"));
+use Illuminate\Support\Str;
 return [
     /*
     |--------------------------------------------------------------------------
