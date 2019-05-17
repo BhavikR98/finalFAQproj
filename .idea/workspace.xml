@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9ca8ef3d-3900-412a-bfd4-a626a2555ea7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,11 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.env">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+            <state relative-caret-position="204">
+              <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -79,7 +78,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/database.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
@@ -117,7 +116,6 @@
         <option value="$PROJECT_DIR$/database/seeds/QuestionsTableSeeder.php" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
         <option value="$PROJECT_DIR$/database/seeds/AnswersTableSeeder.php" />
-        <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/app/Answer.php" />
         <option value="$PROJECT_DIR$/app/Question.php" />
         <option value="$PROJECT_DIR$/app/Profile.php" />
@@ -162,6 +160,7 @@
         <option value="$APPLICATION_CONFIG_DIR$/Composer Log/Composer Log.composerLog" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/config/database.php" />
+        <option value="$PROJECT_DIR$/.env" />
       </list>
     </option>
   </component>
@@ -277,6 +276,11 @@
             <path>
               <item name="PHPprojects" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="C:\Users\esryo\PHPprojects" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="PHPprojects" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\esryo\PHPprojects" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="config" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -427,7 +431,7 @@
       <workItem from="1557932849654" duration="27034000" />
       <workItem from="1558009543709" duration="953000" />
       <workItem from="1558017687575" duration="10043000" />
-      <workItem from="1558060834311" duration="541000" />
+      <workItem from="1558060834311" duration="853000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit with Laravel running">
       <created>1557380888411</created>
@@ -667,7 +671,14 @@
       <option name="project" value="LOCAL" />
       <updated>1558061327650</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Heroku Edit">
+      <created>1558061643275</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1558061643275</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -703,17 +714,18 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83249000" />
+    <option name="totallyTimeSpent" value="83561000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1057" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26222223" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26222223" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3296582" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49624062" weight="0.32855567" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49555555" weight="0.32850778" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39911798" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -721,9 +733,9 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49946293" weight="0.3296582" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5044444" side_tool="true" visible="true" weight="0.36414254" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50555557" side_tool="true" visible="true" weight="0.36414254" />
       <window_info anchor="bottom" id="Database Console" order="11" weight="0.3296582" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="12" sideWeight="0.49555555" visible="true" weight="0.36414254" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49444443" visible="true" weight="0.36414254" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -759,7 +771,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Initial Commit with Laravel running" />
     <MESSAGE value="Initial Commit with Laravel + Working locally" />
     <MESSAGE value="Removed user name field from default Laravel" />
     <MESSAGE value="Created UserTableSeeder" />
@@ -784,7 +795,8 @@
     <MESSAGE value="Updated for Heroku" />
     <MESSAGE value="Database setup for Heroku" />
     <MESSAGE value="Added User / Epic stories" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added User / Epic stories" />
+    <MESSAGE value="Heroku Edit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Heroku Edit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1103,13 +1115,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="58" selection-start-line="23" selection-start-column="58" selection-end-line="23" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/DatabaseServiceProvider.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -1127,13 +1132,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1141,6 +1139,20 @@
             <caret line="22" column="50" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="79" lean-forward="true" selection-start-line="15" selection-start-column="79" selection-end-line="15" selection-end-column="79" />
         </state>
       </provider>
     </entry>
