@@ -1,5 +1,5 @@
 <?php
-$heroku_db_url = parse_url(env('DATABASE_URL', "postgres://forge:forge@localhost:5432/forge"));
+$heroku_db_url = parse_url(env('DATABASE_URL', "C:\Users\esryo\PHPprojects\database\database.sqlite"));
 return [
     /*
     |--------------------------------------------------------------------------
