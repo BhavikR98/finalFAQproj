@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JsonSchemaMappingsProjectConfiguration">
+    <state>
+      <map>
+        <entry key="skaffold">
+          <value>
+            <SchemaInfo>
+              <option name="name" value="skaffold" />
+              <option name="relativePathToSchema" value="$APPLICATION_PLUGINS_DIR$/google-cloud-code/lib/skaffold-19.5.2.jar!/schemas/v1beta4.json" />
+              <option name="applicationDefined" value="true" />
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="path" value="composer.json" />
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+      </map>
+    </state>
+  </component>
+</project>
